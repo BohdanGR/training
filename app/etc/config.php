@@ -129,7 +129,5 @@ return array (
     'Magento_WishlistSampleData' => 1,
     'Shopial_Facebook' => 1,
     'Training_Debug' => 1,
-    'Training_Test' => 1,
-    'Training_Test2' => 1,
   ),
 );

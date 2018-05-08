@@ -3,8 +3,12 @@
     <type name="Training\Debug\Block\Debug">
         <arguments>
             <argument name="data" xsi:type="array">
-                <item name="test-array-item" xsi:type="string">Test Array Item!!!</item>
+                <item name="test-array-item" xsi:type="string">"Test Array Item!!!"</item>
             </argument>
         </arguments>
     </type>
+
 </config>
+
+
+
