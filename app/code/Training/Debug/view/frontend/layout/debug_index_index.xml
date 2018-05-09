@@ -1,7 +1,13 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Training\Debug\Block\Debug" name="debug" template="debug.phtml" />
+            <block class="Training\Debug\Block\Debug" name="debug" template="debug.phtml">
+                <arguments>
+                    <argument name="data" xsi:type="array">
+                        <item name="test-array-item" xsi:type="string">"Test Array Item!!!"</item>
+                    </argument>
+                </arguments>
+            </block>
         </referenceContainer>
     </body>
 </page>
